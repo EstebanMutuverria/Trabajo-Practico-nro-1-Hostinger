@@ -22,6 +22,7 @@ header{
     padding: 20px 40px;
     background-color: var(--color-fondo-nav);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    height: 88px;
 }
 
 .header-title{
@@ -95,5 +96,10 @@ nav a:hover{
     font-weight: 700;
     border-radius: 8px;
     cursor: pointer;
+}
+
+.header-btn-mi-cuenta:hover{
+    color: var(--color-fuente-hover-nav);
+    border: 1px solid var(--color-fuente-hover-nav);
 }
 
