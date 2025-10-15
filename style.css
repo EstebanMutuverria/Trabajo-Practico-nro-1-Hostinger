@@ -5,7 +5,8 @@
     --color-fuente-primario: rgb(29,30,32);
     --color-secundario: rgb(103,61,230);
     --color-fondo-nav: rgb(255,255,255);
-    --color-fuente-hover-nav:rgb(138,138,140)
+    --color-fuente-hover-nav:rgb(138,138,140);
+    --color-fondo-hero:rgb(250,251,255);
 }
 
 *{
@@ -101,5 +102,132 @@ nav a:hover{
 .header-btn-mi-cuenta:hover{
     color: var(--color-fuente-hover-nav);
     border: 1px solid var(--color-fuente-hover-nav);
+}
+
+.section-hero{
+    width: 1351px;
+    height: 535px;
+    padding: 36px 0px 96px;
+    background-color: var(--color-fondo-hero);
+}
+
+.section-hero-content{
+    width: 1208px;
+    height: 403px;
+    margin: 0px 71.5px;
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.section-left{
+    width: 588px;
+    height: 403px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section-header{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0px 0px 24px;
+}
+
+.section-header .title1{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.subtitle{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.descuento{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    color: var(--color-secundario);
+}
+
+.section-header .title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.lista li{
+    font-size: 16px;
+    margin: 0px 0px 2px;
+    color: var(--color-fuente-primario);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.bi-check2{
+    color:rgb(85,177,145);
+    height: 24px;
+    min-width: 24px;
+    vertical-align: middle;
+    width: 24px;
+    font-weight: 400;
+}
+
+.section-button{
+    width: 456px;
+    height: 48px;
+}
+
+.button{
+    width: 186px;
+    height: 48px;
+    background-color: var(--color-secundario);
+    color:rgb(255,255,255);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    border-radius:8px;
+    padding: 11px 47px;
+    text-decoration: none;
+}
+
+.garantia{
+    color: var(--color-fuente-primario);
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.section-right{
+    width: 616px;
+    height: 403px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-right .section-img img{
+    width: 100%;
+    height: auto;
 }
 
