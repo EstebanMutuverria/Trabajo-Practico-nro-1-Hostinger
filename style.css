@@ -24,6 +24,9 @@ header{
     background-color: var(--color-fondo-nav);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     height: 88px;
+    position: sticky;
+    top: 0;
+    width: 100%;
 }
 
 .header-title{
@@ -105,8 +108,8 @@ nav a:hover{
 }
 
 .section-hero{
-    width: 1351px;
-    height: 535px;
+    width: 100vw;
+    height: 5352px;
     padding: 36px 0px 96px;
     background-color: var(--color-fondo-hero);
 }
@@ -231,3 +234,61 @@ nav a:hover{
     height: auto;
 }
 
+.btn-menu{
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--color-fuente-primario);
+}
+
+
+@media screen and (max-width:1025px){
+   /*  header{
+        align-items: center;
+        display: flex;
+        max-width: 100%;
+        width: 100vw;
+        z-index: 9998;
+        padding: 10px 30px;
+    } */
+    
+    .btn-menu{
+        display:flex;
+    }
+    nav{
+        display: none;
+    }
+    .header-buttons{
+        display: none;
+    }
+    .section-hero{
+        width: 100%;
+        height: auto;
+        padding: 62px 0px 80px;
+    }
+    .section-hero-content{
+        width: 100%;
+        height: auto;
+        margin: 0px 99px;
+        padding: 0px 40px;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        gap: 40px;
+        grid-template-columns: 1fr
+    }
+
+    .subtitle{
+        font-size: 18px;
+    }
+
+    .title{
+        font-size: 28px;
+    }
+
+    br{
+        display: none;
+    }
+}
