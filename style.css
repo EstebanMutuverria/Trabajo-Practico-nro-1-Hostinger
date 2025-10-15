@@ -109,7 +109,8 @@ nav a:hover{
 
 .section-hero{
     width: 100vw;
-    height: 5352px;
+    height: auto;
+   /*  height: 5352px; */
     padding: 36px 0px 96px;
     background-color: var(--color-fondo-hero);
 }
