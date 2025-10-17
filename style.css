@@ -489,6 +489,35 @@ footer {
     margin: 0;
 }
 
+/* BTN ASK KODEE */
+.askCode{
+    background-color: rgb(103,61,230);
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius: 100px;
+    font-family: "DM Sans", sans-serif;
+    cursor: pointer;
+    margin: 4px;
+    font-weight: 700;
+    font-size: 14px;
+    position:fixed;
+    right:15px;
+    bottom:15px;
+    transition: background-color 0.2s ease;
+}
+
+.askCode:hover{
+    background-color: rgb(85, 49, 184);
+    transition: background-color 0.2s ease;
+}
+
+.askCode i{
+    font-size:20px;
+    margin-right:10px;
+    vertical-align: middle;
+}
+
 @media screen and (max-width: 1200px) {
     .section-hero-content {
         padding-left: 20px;
