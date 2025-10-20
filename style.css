@@ -402,6 +402,7 @@ footer {
     gap: 20px;
     flex: 1;
     min-width: 300px;
+    width: 100%;
 }
 
 .logo-footer svg {
@@ -574,6 +575,13 @@ footer {
         gap: 40px;
     }
 
+    .social-media {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width:100%;
+    }
+
     .subtitle{
         font-size: 18px;
     }
@@ -595,13 +603,6 @@ footer {
     .upper-footer {
         flex-direction: column;
         gap: 30px;
-    }
-    
-    .social-media {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width:100%;
     }
     
     .terminos-y-condiciones {
@@ -645,9 +646,19 @@ footer {
     .footer-content {
         padding: 0 15px;
     }
-    
-    .payment-methods {
+
+    .payment-methods{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
         gap: 8px;
+    }
+
+    .social-media {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:100%;
     }
     
     .payment-methods-icons img {
