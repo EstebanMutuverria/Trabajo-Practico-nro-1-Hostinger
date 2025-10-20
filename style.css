@@ -670,4 +670,10 @@ footer {
         display: flex;
         justify-content: center;
     }
+
+    .section-migration-buttom a.primary-btn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }
