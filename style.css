@@ -620,6 +620,10 @@ footer {
 
     /* ESTILOS RESPONSIVE PARA SECCION MIGRACION */
 
+    .section-migration-content{
+    gap: 40px;
+    padding: 0px 40px;
+}
     .migration-cards{
         flex-direction: column;
         justify-content: center;
