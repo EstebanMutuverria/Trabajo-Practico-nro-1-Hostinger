@@ -432,6 +432,7 @@ footer {
     gap: 20px;
     flex: 1;
     min-width: 300px;
+    width: 100%;
 }
 
 .payment-methods {
@@ -533,12 +534,6 @@ footer {
     .section-hero-content {
         padding-left: 20px;
         padding-right: 20px;
-    }
-
-    .social-media {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
     
     .footer-content {
