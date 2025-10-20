@@ -122,6 +122,8 @@ nav a:hover{
     height: auto;
     padding: 36px 0px 96px;
     background-color: var(--color-fondo-hero);
+    display: flex;
+    justify-content: center;
 }
 
 .section-hero-content{
@@ -134,10 +136,7 @@ nav a:hover{
     grid-template-columns: 1fr;
     column-gap: 24px;
     max-width: 1208px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0px 80px;
 }
 
 .section-left{
@@ -210,8 +209,8 @@ nav a:hover{
 }
 
 .section-button{
-    width: 456px;
-    height: 48px;
+    width: 100%;
+    height: auto;
 }
 
 .button{
@@ -245,7 +244,6 @@ nav a:hover{
 
 .section-right{
     width: 100%;
-    max-width: 50%;
     height: auto;
     flex: 1;
     min-width: 300px;
@@ -277,15 +275,17 @@ nav a:hover{
     color: rgb(255,255,255);
     background-color: rgb(31,19,70);
     font-family: "DM Sans", sans-serif;
+    padding: 36px 0px 96px;
+    margin: 0px 71.5px rgb(31,19,70);
 }
 
 .section-migration-content{
     width: 100%;
     height: auto;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 40px;
+    padding: 0px 80px;
 }
 
 .migration-cards{
@@ -380,6 +380,7 @@ footer {
     background-color: #f8f9fa;
     color: #333;
     width: 100%;
+    padding: 36px 0px 30px;
 }
 
 .footer-content {
@@ -578,11 +579,6 @@ footer {
         gap: 40px;
     }
 
-    .section-left, .section-right {
-        width: 100%;
-        height: auto;
-    }
-
     .subtitle{
         font-size: 18px;
     }
@@ -596,13 +592,6 @@ footer {
         display: none;
     }
     
-    .section-button {
-        width: 100%;
-    }
-    
-    .button {
-        width: 100%;
-    }
     
     .footer-content {
         padding: 0 20px;
@@ -672,15 +661,23 @@ footer {
         gap: 10px;
     }
 
-    .button{
+    .section-migration-buttom a.primary-btn{
         width: 100%;
         display: flex;
         justify-content: center;
     }
 
-    .section-migration-buttom a.primary-btn{
+    .section-button {
         width: 100%;
         display: flex;
         justify-content: center;
+        align-items: center;
+    }
+    
+    .button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
